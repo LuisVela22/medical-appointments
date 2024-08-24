@@ -6,6 +6,7 @@ import Login from './pages/Login';
 import Home from './pages/Home';
 import Register from './pages/Register';
 import Footer from './components/Footer';
+import Cuerpo from './components/cuerpo/Cuerpo';
 
 
 interface Link {
@@ -53,7 +54,7 @@ function App() {
         <Route path='/login' element={<Login />}/>
         <Route path='register' element={<Register />}/>
       </Routes>
-      {/* <Cuerpo   /> */}
+      <Cuerpo   />
       </div>
       
       <Footer />
