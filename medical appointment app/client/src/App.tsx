@@ -50,11 +50,11 @@ function App() {
       <Header links={links}/>
       <div id='root-content'>
       <Routes>
-        <Route path='/' element={<Home />}/>
+        <Route path='/' element={<Cuerpo />}/>
         <Route path='/login' element={<Login />}/>
         <Route path='register' element={<Register />}/>
       </Routes>
-      <Cuerpo   />
+      {/* <Cuerpo   /> */}
       </div>
       
       <Footer />

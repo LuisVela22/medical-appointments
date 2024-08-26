@@ -3,8 +3,7 @@ import './header.css';
 import { useState } from 'react';
 import menuImage from '../../assets/burger-menu.png';
 import medicalTeam from '../../assets/medical-team.png'
-import { Link } from "react-router-dom";
-
+import { Link} from "react-router-dom";
 interface Link {
   name: string;
   url: string;
@@ -30,8 +29,9 @@ const Header: React.FC<HeaderProps> = ({ links }) => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <img className='imgMenu' src={medicalTeam} style={{marginRight: "10px"}}></img>
-        <a href='../../main.tsx'>Inicio</a>
+        <img className='imgMenu' src={medicalTeam} style={{marginRight: "10px"}} alt="descripcion"></img>
+        {/* <a href='../../main.tsx'>Inicio</a> */}
+        
       </div>
       <a className="navbar-toggler" onClick={toggleMenu}>
         <img className='imgMenu' src={menuImage} alt="" />
