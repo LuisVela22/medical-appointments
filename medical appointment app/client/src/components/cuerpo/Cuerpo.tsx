@@ -18,7 +18,7 @@ const Cuerpo: React.FC = () => {
 
     return (
         <div>
-            <div className="jumbotron">
+            <div className="jumbotron" >
                 <h1 className="display-4">Agenda tu cita cuanto antes!</h1>
                 <p className="lead">Agenda tu cita médica con nuestros doctores especialistas en areas como...</p>
                 <ul className="list-group list-group-flush">

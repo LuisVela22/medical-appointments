@@ -1,5 +1,5 @@
-#root-content{
-  /* max-width: 0 auto; */
+ #root-content{
+  max-width: 0 auto; 
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -39,4 +39,4 @@
 
 .read-the-docs {
   color: #888;
-}
+}   

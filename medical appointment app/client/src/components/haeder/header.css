@@ -85,8 +85,8 @@
   }
 
   .navbar-menu a:hover {
-    background-color: rgb(203, 205, 215);
-    color: #1f1d1d;
+    background-color: rgb(159, 163, 186);
+    color: #000000;
   }
 
   @keyframes gradient-animation {
