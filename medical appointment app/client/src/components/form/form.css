@@ -62,3 +62,7 @@
     transform: scale(1.05);
 }
 
+.error-message {
+    color: tomato;
+    font-size: .9em;
+}

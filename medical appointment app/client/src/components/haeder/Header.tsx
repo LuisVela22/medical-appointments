@@ -42,9 +42,9 @@ const Header: React.FC<HeaderProps> = ({ links }) => {
         <a href="#" >Registrar</a>
         <a href="#" >Acerca de Nosotros</a> */}
         {links.map((link, index) => (
-          <a key={index}>
+          <span key={index}>
             <Link to={link.url}>{link.name}</Link>
-          </a>
+          </span>
         ))}
 
       </div>

@@ -27,8 +27,8 @@ function App() {
     { name: 'name', type: 'text', label: 'Name', placeholder: 'Nombre'},
     { name: 'lastName', type: 'text', label: 'Last Name', placeholder: 'Apellido'},
     { name: 'username', type: 'text', label: 'Username', placeholder: 'Username'},
-    { name: 'password', type: 'text', label: 'Password', placeholder: 'Password'},
-    { name: 'email', type: 'text', label: 'Email', placeholder: 'Ej: nombre@dominio.com'},
+    { name: 'password', type: 'password', label: 'Password', placeholder: 'Password'},
+    { name: 'email', type: 'email', label: 'Email', placeholder: 'Ej: nombre@dominio.com'},
     { name: 'birthdate', type: 'date', label: 'Date Birth', placeholder: 'Birth'}
   ];
 
@@ -58,8 +58,7 @@ function App() {
     '/home': homeLinks,
   }
   const links = routeLinks[location.pathname] || homeLinks;
-
-
+  
   return (
     <>
       <Header links={links} />
@@ -67,7 +66,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Cuerpo />} />
           <Route path='/login' element={<Form inputs={loginInputs} boxHeight="460px" header='Bienvenido Usuario'/>} />
-          <Route path='register' element={<Form inputs={registerInputs} boxHeight="910px" header='Bienvenido al registro'/>} />
+          <Route path='register' element={<Form inputs={registerInputs} boxHeight="970px" header='Bienvenido al registro'/>} />
         </Routes>
         {/* <Cuerpo   /> */}
       </div>
