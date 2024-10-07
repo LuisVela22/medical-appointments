@@ -45,7 +45,7 @@ const Form: React.FC<FormProps> = ({ inputs, boxHeight, header }) => {
                                     type={input.type}
                                     placeholder={input.placeholder}
                                     {...register(input.name, {
-                                        required: input.type === "text" ? {
+                                        required: input.type === "text" || input.type === "password" || input.type === "email" || input.type === "date" ? {
                                             value: true,
                                             message: `${input.label} es requerido`
                                         } : undefined,

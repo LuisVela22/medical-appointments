@@ -3,7 +3,7 @@ import './header.css';
 import { useState } from 'react';
 import menuImage from '../../assets/burger-menu.png';
 import medicalTeam from '../../assets/medical-team.png'
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 interface Link {
   name: string;

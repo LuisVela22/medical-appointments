@@ -10,7 +10,7 @@
     background: #fff;
     padding: 2.5rem;
     /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); */
-    width: 390px;
+    width: 500px;
     /* height: 450px; */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
